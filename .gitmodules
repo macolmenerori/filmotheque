@@ -1,0 +1,9 @@
+[submodule "opensesame-back"]
+	path = opensesame-back
+	url = https://github.com/macolmenerori/opensesame-back
+[submodule "filmotheque-back"]
+	path = filmotheque-back
+	url = https://github.com/macolmenerori/filmotheque-back
+[submodule "filmotheque-front"]
+	path = filmotheque-front
+	url = https://github.com/macolmenerori/filmotheque-front
