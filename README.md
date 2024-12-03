@@ -17,13 +17,15 @@ Check out [opensesame project](https://github.com/macolmenerori/opensesame) for 
 git clone https://github.com/macolmenerori/filmotheque
 ```
 
-2. Start the service
+2. Update `.example.env` file and rename it to `.env`. `TRAKT_CLIENT_ID` and `TRAKT_CLIENT_SECRET` can be obtained following [this instructions](https://trakt.docs.apiary.io/#reference/authentication-oauth).
+
+3. Start the service
 
 ```
 docker-compose up -d
 ```
 
-3. Everything is ready now, go to `http://localhost:80` and sign in with default email and password
+4. Everything is ready now, go to `http://localhost:80` and sign in with default email and password
 
 ```
 email: admin@admin.com
